@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    // Compile the .cpp file
+                    // Intentionally causing a compilation error
                     sh 'g++ -o my_program my_program.cpp'
                     echo 'Build Stage Successful'
                 }
