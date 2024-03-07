@@ -49,7 +49,7 @@ pipeline {
     
     post {
         failure {
-            echo 'Pipeline failed'
+            echoooo 'Pipeline failed'
         }
         success {
             script {
